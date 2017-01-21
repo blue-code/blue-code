@@ -1,0 +1,578 @@
+body{
+font-family: 'Lato', sans-serif;
+}
+.center-block{
+padding-left: auto;
+padding-right: auto;
+}
+.no-padding{
+padding: 0;
+}
+
+/*header section css*/
+.head{
+	background:url(../images/background.png);
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 150px;
+	position: relative;
+}
+.head h1{
+	padding-top: 150px;
+	padding-bottom: 30px;
+	color:#fff;
+	text-decoration:underline;
+}
+.head h3{
+	color:white;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+.btn-default{
+	background: #ed145b;
+	color:#fff;
+	border-radius: 25px;
+/*	margin-bottom: 200px;*/
+	padding:18px 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border:unset;
+}
+.head ul li a{
+	color:white;
+}
+.head ul li a:hover,.head ul li a:focus{
+	color:#ed145b;
+	background-color: unset;
+}
+.logo{
+	position:absolute;
+}
+
+/*about section css*/
+.about{
+	background: #f4f4f4;
+	padding-top: 50px;
+	position: relative;
+}
+.about h2{
+	padding-top: 15px;
+}
+.about p{
+	padding-bottom: 40px;
+}
+.about img{
+	position: absolute;
+	top:95px;
+}
+
+/*service section css*/
+.service{
+	padding-top: 80px;
+	padding-bottom:80px;
+}
+.service h1{
+	padding-bottom:60px;
+}
+.service p{
+	padding-bottom:40px;
+}
+.service img{
+	margin: 0 auto;
+}
+
+/*quotes section css*/
+.quotes{
+	background: url(../images/quotes-bg.png);
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.quotes p{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#717171;
+}
+
+/*Price Section css*/
+.price{
+	background:#f4f4f4;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.price h1{
+	padding-bottom: 30px;
+}
+.price .prc-text-one{
+	padding-bottom: 50px;
+}
+.price .prc-one{
+    background: white;
+    margin-bottom: 30px
+}
+.price .prc-two{
+	padding-right: unset;
+}
+.price .num{
+	font-size: 38px;
+}
+.price .prc-num{
+	background: #5a5a5a;
+	padding-top: 35px;
+	padding-bottom: 55px;
+	color:#f4f4f4;
+	text-align: center;
+}
+.price .prc-text{
+	background:white;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.price .btn-a{
+    padding: 18px 40px;
+    border-radius: 26px;
+ 	background: #f4f4f4;  
+    border-color: #f4f4f4;
+    color: #5a5a5a;
+    transform: translateY(-2em);
+    margin: 0 auto;
+    display: block;
+}
+.price .btn-b{
+	padding:18px 75px;
+	border-radius:26px;
+	margin-top: 40px;
+	margin-bottom: unset;
+}
+
+/*additional-info section css*/
+.additional-info{
+	padding-top: 100px;
+}
+.size-one{
+	padding-bottom: 70px;
+}
+.additional-info h4{
+	color:#f14e84;
+}
+.additional-info p{
+	color:#1a1a1a;
+	margin-bottom: 85px;
+}
+
+/* join section css*/
+.join{
+	background: #ed145b;
+	padding-top:60px;
+	margin-bottom: 80px;
+	height:250px;
+}
+.join h1{
+	padding-top: 27px;
+}
+.join .btn-default{
+	background: #fff;
+	padding: 18px 65px;
+	color:#ed145b;
+	border-radius: 35px;
+}
+
+/*update section*/
+.update{
+	padding-bottom: 40px;
+}
+.update p{
+	padding-bottom: 40px;
+}
+.update h1{
+	padding-bottom: 30px;
+}
+.update .txt-one{
+	background: #f4f4f4;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 70px;
+}
+.update .r-two{
+	margin-top:52px;
+}
+
+/*additional-info-two*/
+.add{
+	background: url(../images/bb.png);
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.add h1{
+	padding-bottom: 60px;
+	color:#fff;
+}
+.add p{
+	padding-bottom: 60px;
+	color:#f0f0f0;
+}
+.add .btn-default{
+	border:0;
+	padding: 15px 30px;
+}
+.cst-btn{
+	width: 140px;
+	margin: 0 auto;
+}
+.add .btn-default:hover{
+	background: #ed145b;
+	color:white;
+}
+
+/*download section*/
+.download-sec{
+padding-top:50px;
+padding-bottom:50px;
+}
+.download-sec h1{
+padding-top:25px; 
+padding-bottom:25px; 
+}
+.download-sec p{
+padding-top:25px;
+padding-bottom:25px;
+}
+.download-sec .btn-default{
+padding: 15px 60px;
+}
+.download-sec .download-two{
+margin-left: 60px;
+}
+
+/*footer section*/
+
+.foot{
+	background:#090909 ;
+	padding-top: 67px;
+	padding-bottom: 68px;
+	color:white;
+}
+
+
+@media screen and (max-width: 480px){
+.head{
+	padding-bottom: 40px;
+}
+.head h1{
+	padding-top: 50px;
+	padding-bottom: 0;
+	color: #fff;
+	text-decoration: underline;
+	font-size: 20px;
+}
+.head img{
+	margin-left: -17px;
+}
+.head h3 {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+.about{
+	padding-top: 0px;
+}
+.about h2 {
+	padding-top: 0px;
+	font-size: 20px;
+}
+.about p {
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.about .laptop{
+	position:unset;
+	top:0;
+}
+.service {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.service h1 {
+	padding-bottom: 10px;
+}
+.service p {
+	padding-bottom: 0;
+	margin: 0 auto;
+	width: 80%;
+	text-align: justify;
+}
+.service h3{
+	font-size: 20px;
+	margin-top: -20px;
+	color: #ed145b;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.sevice .icon-one,.icon-two,.icon-three,.icon-four{
+	margin:0 auto;
+}
+.service img{
+	width: 128px;
+	margin-bottom: 24px;
+}
+.quotes{
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+.quotes p{
+	padding-top:15px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 80%;
+	text-align: justify;
+}
+.price{
+	padding-top:0;
+	padding-bottom: 0;
+}
+.price h1{
+	font-size: 29px;
+	padding-bottom: 5px;
+}
+.price .prc-text{
+	padding-top: 39px;
+	padding-bottom: 30px
+}
+.price .prc-num{
+	text-align: center;
+}
+.price .btn-a{
+	padding: 14px 66px;
+}
+.price .btn-b{
+	padding: 12px 66px;
+	margin-top: 5px;
+}
+.price .prc-two {
+	padding-right: 14px !important;
+}
+.price p{
+	width:80%;
+	margin: 0px auto;
+	padding-bottom: 25px !important;
+}
+.additional-info{
+	padding-top:32px;
+	padding-bottom:5px;
+}
+.additional-info p {
+    margin-bottom: 5px !important;
+}
+.additional-info img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.additional-info h4,p{
+	text-align: center;
+}
+.additional-info .size-one{
+	padding-bottom: 0;
+}
+.join{
+	padding-top:10px !important;
+	padding-bottom:15px;
+}
+.join h1{
+	font-size: 29px;
+	padding-bottom: 13px !important;
+}
+.join .btn-default{
+	padding: 10px 25px !important;
+	margin-top: 15px;	
+	
+}
+.update{
+    padding-top: 0 !important;
+	padding-bottom:5px !important;
+}
+.update .txt-one{
+	margin-bottom: 30px;
+}
+.update h1{
+	font-size: 30px;
+	margin-top: -50px;
+}
+.update p{
+	padding-bottom:5px;
+}
+.add{
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.add h1{
+	padding-bottom:5px;
+	font-size: 30px;
+}
+.add p{
+	padding-bottom:5px;
+}
+.add .btn-default{
+	padding: 10px 20px;
+}
+.download-sec{
+	padding-top:16px;
+	padding-bottom:8px;
+}
+.download-sec .sec-one{
+	padding-left:0;
+}
+.download-sec h1{
+	font-size: 21px;
+	padding-bottom: 0 !important;
+	padding-right: 48px;
+}
+.download-sec p{
+	padding-top: 15px;
+	margin-right: 53px;
+}
+.download-sec .btn-default{
+	padding:10px 41px;
+	/*margin-left: 15px !important;*/
+    margin-bottom: 10px !important;
+    margin-top: -10px;
+}
+.foot{
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.foot h4{
+	font-size: 16px;
+}
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+.head{
+	padding-bottom: 40px;
+}
+.head h3{
+	font-size: 20px;
+}
+.head .btn-default {
+	margin-bottom: 0px;
+	padding: 14px 43px;
+}
+.about{
+	padding-top:10px;
+}
+.about img{
+	position: unset;
+	padding-bottom: 10px;
+}
+.about h2{
+	padding-bottom: 10px;
+}
+.service{
+	padding-top: 10px;
+	margin-bottom: -60px;
+}
+.service h3 {
+    margin-top: 3px;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+.service img{
+	margin: 0 auto;
+	width: 125px;
+}
+.service h1{
+	padding-bottom: 10px;
+}
+.service p {
+    padding-bottom: 18px !important;
+}
+.quotes{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.price{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.price .prc-num{
+	text-align: center
+}
+.price .prc-one{ 
+}
+.price .prc-three{
+	padding-left: 0px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.price .prc-four{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.price .prc-two{
+	margin-top: 20px;
+}
+.price p{
+	padding-bottom: 5px !important;
+}
+.additional-info{
+	padding-top: 60px;
+	padding-bottom: 10px;
+	padding-left: 29px;
+}
+.additional-info img{
+	margin:0 auto;
+}
+.additional-info .size-one{
+	padding: 0;
+}
+.additional-info h4,p {
+	text-align: center;
+}
+.additional-info p {
+    margin-bottom: 48px;
+    margin-left: -15px;
+}
+.additional-info h4{
+	margin-left: -15px;
+}
+.join{
+	padding-top: 30px;
+}
+.join h1 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.join .btn-default{
+	padding: 16px 65px;
+}
+.update{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.update img{
+	margin: 0 auto;
+}
+.update .txt-one {
+	width: 100%;
+}
+.add{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.add h1,p {
+	padding-bottom: 30px !important;
+}
+.download-sec h1 {
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+.download-sec p {
+text-align: center;
+}
+.download-sec .btn-default {
+	margin-bottom: 0px;
+}
+}
+
